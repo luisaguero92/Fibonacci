@@ -14,13 +14,14 @@ for (let i = 1; i <= number; i++) {
 }
 
 // Cantidad de números que deseamos imprimir
-var limit = number;
-var fibo = [0,1];
+//var limit = number;
 
-console.log('Fibo 3')
-for(let i=2; i <= limit; i++){
-    fibo.push(fibo[i-1] + fibo[i-2]);
-    document.write(fibo[i]+"<br/>");	
-    console.log(fibo[i])
-}
+var fibo = [0, 1];
+    console.log('Fibo 3')
+    console.log(fibo);
+    for (let i = 2; i <= number; i++) {
+        fibo.push(fibo[i - 1] + fibo[i - 2]);
+        document.write(fibo[i]);
+    }
+
 
